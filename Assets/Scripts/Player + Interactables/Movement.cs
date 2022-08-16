@@ -202,7 +202,7 @@ public class Movement : MonoBehaviour {
         healthStyle.fontSize = 96;
         healthStyle.fontStyle = FontStyle.Bold;
 
-        GUI.Label(new Rect(960, 900, 128, 128), keyPrompt, promptStyle);
+        GUI.Label(new Rect(960, Screen.height - 180, 128, 128), keyPrompt, promptStyle);
         GUI.Label(new Rect(40, 30, 128, 128), "HP: " + health.ToString() + " / " + maxHealth.ToString(), healthStyle);
     }
 

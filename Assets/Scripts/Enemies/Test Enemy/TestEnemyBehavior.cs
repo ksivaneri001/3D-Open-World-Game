@@ -145,7 +145,7 @@ public class TestEnemyBehavior : MonoBehaviour {
             healthStyle.fontStyle = FontStyle.Bold;
             healthStyle.alignment = TextAnchor.MiddleCenter;
             
-            if (Vector3.Dot(playerRef.transform.position - transform.position, playerRef.transform.forward) < 0f) { GUI.Label(new Rect(relativePos.x, 1080 - relativePos.y, 64, 64), "HP: " + health.ToString() + " / " + maxHealth.ToString(), healthStyle); }
+            if (Vector3.Dot(playerRef.transform.position - transform.position, playerRef.transform.forward) < 0f) { GUI.Label(new Rect(relativePos.x, Screen.height - relativePos.y - 50, 64, 64), "HP: " + health.ToString() + " / " + maxHealth.ToString(), healthStyle); }
         }
     }
 

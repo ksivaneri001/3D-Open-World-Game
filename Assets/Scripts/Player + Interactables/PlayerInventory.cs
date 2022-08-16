@@ -36,7 +36,7 @@ public class PlayerInventory : MonoBehaviour {
         slotStyle.fontStyle = FontStyle.Bold;
         slotStyle.alignment = TextAnchor.MiddleCenter;
 
-        GUI.Label(new Rect(40, 900, 128, 128), slotOutput, slotStyle);
+        GUI.Label(new Rect(40, Screen.height - 180, 128, 128), slotOutput, slotStyle);
     }
 
     public int getInventorySlot() {
