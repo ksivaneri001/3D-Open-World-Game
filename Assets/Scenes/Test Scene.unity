@@ -10330,15 +10330,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d4c8f36846594745a7ecbbc4755dcc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  drawMode: 1
   width: 100
   height: 100
-  scale: 18.18
+  scale: 39
   octaves: 4
-  persistance: 0.44
-  lacunarity: 2.8
-  seed: 442
-  offset: {x: -63.1, y: -27.9}
+  persistance: 0.45
+  lacunarity: 2.3
+  seed: 424
+  offset: {x: -45.6, y: -36.4}
   autoUpdate: 1
+  regions:
+  - name: Deep Water
+    height: 0.3
+    color: {r: 0.15419191, g: 0.44401926, b: 0.7264151, a: 0}
+  - name: Water
+    height: 0.38
+    color: {r: 0.22745098, g: 0.53333336, b: 0.83137256, a: 0}
+  - name: Sand
+    height: 0.44
+    color: {r: 0.754717, g: 0.7384078, b: 0.29547882, a: 0}
+  - name: Land
+    height: 0.57
+    color: {r: 0.050980393, g: 0.30980393, b: 0.12156863, a: 0}
+  - name: Highland
+    height: 0.74
+    color: {r: 0.13257621, g: 0.38679248, b: 0.08210219, a: 0}
+  - name: Hill
+    height: 0.84
+    color: {r: 0.49056602, g: 0.49056602, b: 0.49056602, a: 0}
+  - name: Mountain
+    height: 0.935
+    color: {r: 0.3773585, g: 0.3755785, b: 0.3755785, a: 0}
+  - name: Mountain Top
+    height: 1
+    color: {r: 0.8207547, g: 0.8207547, b: 0.8207547, a: 0}
 --- !u!4 &1867575819
 Transform:
   m_ObjectHideFlags: 0
